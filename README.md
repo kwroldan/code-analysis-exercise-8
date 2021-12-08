@@ -37,4 +37,3 @@ function (numbers){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
-  * Official answer is that it returns the average of an array of numbers, rounding down.
