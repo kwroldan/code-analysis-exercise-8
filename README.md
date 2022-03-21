@@ -7,6 +7,12 @@ Your task is to figure out how this code works.
 * Keep coming up with new inputs until you're confident that you know how the function works.
 * Write a summary of what the function does.
 
+*Summary*
+1) Function takes an array of numbers and first sets `sum = 0`. 
+2) The function takes the 1st number in the array and adds it to the sum.
+3) The function then iterates and takes the next number in the array and adds it to the previous sum.
+4) Finally, the function takes the sum of all the numbers and divides it by the array's length and returns the quotient. 
+
 ```js
 function (numbers){
   let sum = 0
@@ -21,16 +27,16 @@ function (numbers){
 
 Inputs and outputs should be valid JavaScript values!
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|     Input     | Output |
+| ------------- | ------ |
+| [1, 2, 3, 4]  |  2.5   | 
+| [3, 5, 7]     |    5   | 
+| [0, 100]      |   50   | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program gives you the mean of the array of numbers entered.</td>
   </tr>
 </table>
 
